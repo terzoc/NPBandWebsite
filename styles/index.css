@@ -22,23 +22,6 @@ a {
     text-decoration: none;
 }
 
-.item {
-    background-color: #1F571F;
-    color: whitesmoke;
-    transition: 0.3s;
-}
-
-#selected {
-    text-decoration: underline;
-    transition: 0.3s;
-}
-
-.item:hover,
-#selected:hover {
-    background-color: whitesmoke;
-    color: #1F571F;
-}
-
 #remind-widget {
   position: absolute;
   right: 0px;
