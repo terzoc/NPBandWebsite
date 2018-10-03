@@ -1,3 +1,3 @@
 # NPBandWebsite
 
-press alt + F4 to download fornite hacks
+press alt + F4 to download fortnite hacks
