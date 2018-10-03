@@ -10,11 +10,23 @@
 </head>
 
 <body>
-    <nav>
-      <a class="item" href="index.html">Home</a>
-      <a class="item" href="calendar.html">Calendar</a>
-      <a id="selected" href="drillvideos.html">Drill Videos</a>
-    </nav>
+  <div class="topnav" id="myTopnav">
+    <a href="index.html" class="active">Home</a>
+    <a href="calendar.html">Calendar</a>
+    <a href="drillvideos.html">Drill Videos</a>
+    <div class="dropdown">
+      <button class="dropbtn">Dropdown
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="#">Link 1</a>
+        <a href="#">Link 2</a>
+        <a href="#">Link 3</a>
+      </div>
+    </div>
+    <a href="#about">About</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+  </div>
     <br>
     <center>
       <iframe id="part1drill" class="drillvid" src="https://www.youtube.com/embed/ZTqo3iOXdmQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
