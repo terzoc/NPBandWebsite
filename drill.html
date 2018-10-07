@@ -6,6 +6,7 @@
     <link href="styles/index.css" rel="stylesheet" type="text/css" />
     <link rel="shortcut icon" type="image/x-icon" href="https://www.ucvts.tec.nj.us/cms/lib/NJ03001805/Centricity/Domain/4/favicon.ico"/>
     <script type="text/javascript" src="script/index.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </head>
 
 <body>
@@ -45,7 +46,8 @@
       <option value="Y">Cymbals</option>
       <option value="Z">Snares</option>
 </select>
-<button type="button" onclick="test()" name="button">Search</button>
+<button type="button" onclick="download()" id="link" name="button">Search</button>
+<iframe id="my_iframe" style="display:none;">
 </body>
 
 </html>
