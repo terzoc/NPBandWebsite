@@ -1,7 +1,7 @@
 function test(){
   var instrument = document.getElementById("instrument").value;
 console.log(instrument);
-f
+f  // <-- what's this? -kyle
 }
 
 function download() {
