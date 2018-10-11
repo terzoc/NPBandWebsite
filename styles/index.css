@@ -11,73 +11,30 @@ h1, h2, h3 {
 
 /* Add a black background color to the top navigation */
 nav {
-    background-color: #333;
-    overflow: hidden;
-}
-
-.topnav a {
-    float: left;
-    display: block;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-}
-
-nav {
-    text-align: center;
-    overflow: hidden;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    height: 58px;
-    left: 0%;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    font-size: 16px;
-    background-color: #333;
-    border-bottom: 5px solid whitesmoke;
+  overflow: hidden;
+  background-color: #333;
 }
 
 nav a {
-    float: left;
-    display: block;
-    color: whitesmoke;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+  float: left;
+  display: block;
+  color: whitesmoke;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 16px;
+  border-bottom: 6px solid transparent;
+  border-right: 1px solid whitesmoke;
 }
 
-a {
-    text-decoration: none;
+nav a:hover {
+  border-bottom: 6px solid #2c662f;
 }
 
-.item {
-    background-color: #333;
-    color: whitesmoke;
-    border-right: 1px solid whitesmoke;
-    transition: 0.5s;
-    padding-top: 20px;
-    height: 58px;
+nav a.active {
+  border-bottom: 6px solid #4caf50;
+  border-right: 1px solid whitesmoke;
 }
-
-#selected {
-    background-color: #4caf50;
-    transition: 0.5s;
-    padding-top: 20px;
-    border-right: 1px solid whitesmoke;
-    height: 58px;
-}
-
-.item:hover,
-#selected:hover {
-    background-color: whitesmoke;
-    color: #333;
-    height: 58px;
-}
-
 
 button:focus {
     outline: 0;
