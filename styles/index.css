@@ -86,6 +86,6 @@ nav {
 }
 
 nav a {
-    float: left;
     display: block;
+    width: 9%;
 }
