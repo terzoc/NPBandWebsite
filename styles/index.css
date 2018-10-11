@@ -44,6 +44,10 @@ select:focus {
     outline: 0;
 }
 
+nav a:last-of-type{
+  border-right: 0px solid white;
+}
+
 a {
     text-decoration: none;
 }
