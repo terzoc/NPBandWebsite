@@ -1,10 +1,13 @@
+var number = 0;
 function test(){
   var instrument = document.getElementById("instrument").value;
-  var number = document.getElementById("number").value;
-  if (number = "") {
+  number = document.getElementById("number").value;
+  number = parseInt(number);
+  if (!Number.isInteger(number)) {
     alert("Please enter a Drill Number");
   }else {
     var drillNum = instrument+number;
+    drillNum = String(drillNum);
     console.log(drillNum);
     download(drillNum);
   }
