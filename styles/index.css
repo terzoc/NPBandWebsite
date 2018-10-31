@@ -1,3 +1,11 @@
+/*
+COLORS:
+
+Nav background: #1f571f
+Nav highlight:  #37b73c
+
+*/
+
 body {
     font-family: "Arial";
     color: black;
@@ -10,55 +18,32 @@ body {
 /* NAVBAR */
 
 .topnav {
+  font-size: 25px;
+  color: whitesmoke;
+  background-color: #1f571f;
+  top: 0;
+  width: 100%;
+  left: 0%;
+  margin: 0;
+  padding: 0;
   overflow: hidden;
-  background-color:#1f571f;
-  display: inline-block;
   position: fixed;
+  text-align: center;
+  list-style-type: none;
 }
 
 .topnav a {
+  float: left;
   display: block;
-  color: whitesmoke;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 16px;
-  border-bottom: 4px solid transparent;
-  margin-bottom: 0;
+  color: whitesmoke;
+  height: 16px;
+  border-bottom: 5px solid #1f571f;
 }
 
-.topnav a:hover {
-  border-bottom: 4px solid #37b73c;
-  transition: 0.2s;
-}
-
-.topnav a.active {
-  border-bottom: 4px solid #37b73c;
-  font-weight: bold;
-}
-
-.topnav {
-    text-align: center;
-    overflow: hidden;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    left: 0%;
-    list-style-type: none;
-    margin: auto;
-    padding: 0;
-}
-
-.topnavli{
-  display: inline-block;
-  margin-bottom: 0;
-}
-
-.topnav a {
-    float: left;
-    display: block;
-}
-
+.active {border-bottom: 5px solid #333333;}
 
 /* NOT NAVBAR */
 
