@@ -19,7 +19,6 @@ ul.topnav {
   overflow: hidden;
   background-color:#1f571f;
   display: inline-block;
-  margin-bottom: 0;
   position: fixed;
 }
 
@@ -44,11 +43,7 @@ ul.topnav a {
   font-weight: bold;
 }
 
-button:focus {
-    outline: 0;
-}
-
-select:focus {
+button:focus, select:focus {
     outline: 0;
 }
 
