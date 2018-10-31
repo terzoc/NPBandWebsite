@@ -9,14 +9,14 @@ body {
 
 /* NAVBAR */
 
-ul.topnav {
+.topnav {
   overflow: hidden;
   background-color:#1f571f;
   display: inline-block;
   position: fixed;
 }
 
-ul.topnav a {
+.topnav a {
   display: block;
   color: whitesmoke;
   text-align: center;
@@ -48,7 +48,8 @@ ul.topnav a {
     margin: auto;
     padding: 0;
 }
-li.topnavli{
+
+.topnavli{
   display: inline-block;
   margin-bottom: 0;
 }
