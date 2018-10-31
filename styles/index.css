@@ -5,9 +5,11 @@ body {
     padding-top: 30px;
     margin: 0;
 }
+
 .head{
   font-size: 16px;
 }
+
 h1, h2, h3 {
     text-align: center;
 }
