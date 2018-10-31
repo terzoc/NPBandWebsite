@@ -6,15 +6,22 @@
     <link href="styles/index.css" rel="stylesheet" type="text/css" />
     <link rel="shortcut icon" type="image/x-icon" href="https://www.ucvts.tec.nj.us/cms/lib/NJ03001805/Centricity/Domain/4/favicon.ico"/>
     <script type="text/javascript" src="script/index.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </head>
 
 <body>
-
-<nav class="topnav" id="myTopnav">
-  <a href="index.html">Home</a>
-  <a href="calendar.html">Calendar</a>
-  <a href="drill.html" class="active">Drill</a>
-</nav>
+  <div>
+    <ul class="topnav">
+    <li class="topnavli"><a href="index.html">Home</a></li>
+    <li class="topnavli"><a class="item" href="calendar.html">Information</a></li>
+    <li class="topnavli"><a class="active" class="item" href="drill.html">Drill</a></li>
+    <li class="topnavli"><a class="item" href="brass.html">Brass</a></li>
+    <li class="topnavli"><a class="item" href="woodwinds.html">Woodwinds</a></li>
+    <li class="topnavli"><a class="item" href="drumline.html">Drumline</a></li>
+    <li class="topnavli"><a class="item" href="guard.html">Guard</a></li>
+    <li class="topnavli"><a class="item" href="scroll.html">Scroll</a></li>
+  </ul>
+  </div>
     <br>
     <center>
       <iframe id="part1drill" class="drillvid" src="https://www.youtube.com/embed/ZTqo3iOXdmQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
@@ -22,6 +29,36 @@
       <iframe id="part3drill" class="drillvid" src="https://www.youtube.com/embed/HWGhjazvBmA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
       <iframe id="part4drill" class="drillvid" src="https://www.youtube.com/embed/E7TcJD5QII8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
     </center><br>
+    <div id="drillselect">
+    <center><div id="selector">
+    <h2>Drill Sheets</h2>
+    <h4>Section</h4>
+    <select id="instrument" >
+      <option value="A">Base Clanent</option>
+      <option value="B">Baratone</option>
+      <option value="C">Clarenet</option>
+      <option value="F">Flute</option>
+      <option value="G">Guard</option>
+      <option value="M">Mellophone</option>
+      <option value="N">Tenor Sax</option>
+      <option value="O">Bass Drum</option>
+      <option value="Q">Quints</option>
+      <option value="R">Trombone</option>
+      <option value="S">Alto Sax</option>
+      <option value="T">Trumpet</option>
+      <option value="U">Tuba</option>
+      <option value="Y">Cymbals</option>
+      <option value="Z">Snares</option>
+</select>
+<input type="text" name="" placeholder="enter your drill number" id="number" value="">
+<button type="button" onclick="test()" id="link" name="button">Search</button>
+<br>
+<br>
+<br>
+<br>
+<br>
+<iframe id="my_iframe" style="display:none;">
+</div></center>
+</div>
 </body>
-
 </html>
