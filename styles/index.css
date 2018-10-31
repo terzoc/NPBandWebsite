@@ -6,13 +6,6 @@ body {
     margin: 0;
 }
 
-.head{
-  font-size: 16px;
-}
-
-h1, h2, h3 {
-    text-align: center;
-}
 
 /* NAVBAR */
 
@@ -65,7 +58,16 @@ li.topnavli{
     display: block;
 }
 
+
 /* NOT NAVBAR */
+
+.head{
+  font-size: 16px;
+}
+
+h1, h2, h3 {
+    text-align: center;
+}
 
 button:focus, select:focus {
     outline: 0;
