@@ -17,8 +17,8 @@ body {
 
 /* NAVBAR */
 
-.topnav {
-  font-size: 25px;
+nav ul {
+  font-size: 16px;
   color: whitesmoke;
   background-color: #1f571f;
   top: 0;
@@ -32,17 +32,32 @@ body {
   list-style-type: none;
 }
 
-.topnav a {
+nav li {
+  display: inline-grid;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+nav a {
   float: left;
   display: block;
+  color: #333333;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
   color: whitesmoke;
+  background-color: #1f571f;
+  height: 17px;
   border-bottom: 5px solid #1f571f;
 }
 
-.active {border-bottom: 5px solid #333333;}
+#selected {border-bottom: 5px solid #37b73c;}
+
+a:active, #selected:active {
+  transform:translateY(3px);
+}
+
+nav a:hover, #selected:hover {border-bottom: 5px solid #37b73c;}
 
 /* NOT NAVBAR */
 
