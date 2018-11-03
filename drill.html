@@ -35,23 +35,28 @@
       <h2>Drill Sheets</h2>
       <h4>Section</h4>
       <select id="instrument">
+        <option>Select your section</option>
+        <!-- Woodwinds -->
         <option value="A">Bass Clarinet</option>
-        <option value="B">Baratone</option>
         <option value="C">Clarinet</option>
         <option value="F">Flute</option>
-        <option value="G">Guard</option>
-        <option value="M">Mellophone</option>
         <option value="N">Tenor Sax</option>
-        <option value="O">Bass Drum</option>
-        <option value="Q">Quints</option>
-        <option value="R">Trombone</option>
         <option value="S">Alto Sax</option>
+        <!-- Guard -->
+        <option value="G">Guard</option>
+        <!-- Brass -->
+        <option value="M">Mellophone</option>
+        <option value="R">Trombone</option>
         <option value="T">Trumpet</option>
         <option value="U">Tuba</option>
+        <option value="B">Baratone</option>
+        <!-- Drumline -->
         <option value="Y">Cymbals</option>
+        <option value="O">Bass Drum</option>
+        <option value="Q">Quints</option>
         <option value="Z">Snare</option>
       </select>
-      <input type="text" name="" placeholder="enter your drill number" id="number" value="">
+      <input type="text" name="" placeholder="Enter your drill number" id="number" value="">
       <button type="button" onclick="test()" id="link" name="button">Search</button>
       <br><br><br><br><br>
       <iframe id="my_iframe" style="display:none;">
