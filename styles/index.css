@@ -53,9 +53,7 @@ nav a {
 
 #selected {border-bottom: 5px solid #37b73c;}
 
-a:active, #selected:active {
-  transform:translateY(3px);
-}
+a:active, #selected:active {transform:translateY(3px);}
 
 nav a:hover, #selected:hover {border-bottom: 5px solid #37b73c;}
 
