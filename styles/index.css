@@ -105,3 +105,30 @@ a {
   align-self: center;
   color: whitesmoke;
 }
+
+#message {
+  color: crimson;
+  font-size: x-large;
+  font-weight: bold;
+}
+
+a {
+  color: #0000EE;
+  font-weight: bold;
+}
+
+#warmups {
+  color: darkslategray;
+  font-size: large;
+}
+
+#percstaff {
+  color: darkslateblue;
+  font-size: large;
+}
+
+#percawards {
+  font-size: medium;
+  color: #004500;
+  line-height: 1.5;
+}
