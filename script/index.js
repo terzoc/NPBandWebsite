@@ -22,6 +22,9 @@ function download(drillNum) {
         console.log("download A1");
         window.open('drill/A1.pdf', '_blank');
         break;
+      case "C1":
+          window.open('drill/C1.pdf', '_blank');
+          break;
       case "T2":
         console.log("downlad T2");
         window.open('drill/T2.pdf', '_blank');
