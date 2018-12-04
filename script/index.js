@@ -10,6 +10,7 @@ function test(){
     drillNum = String(drillNum);
     console.log(drillNum);
     download(drillNum);
+
   }
 
 
@@ -17,8 +18,13 @@ function test(){
 
 function download(drillNum) {
     switch (drillNum) {
+      case "A1":
+        console.log("download A1");
+        window.open('drill/A1.pdf', '_blank');
+        break;
       case "T2":
-        console.log("downlad T2")
+        console.log("downlad T2");
+        window.open('drill/T2.pdf', '_blank');
         break;
       default:
 
