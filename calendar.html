@@ -4,25 +4,26 @@
 <head>
     <title>Calendar</title>
     <link href="styles/index.css" rel="stylesheet" type="text/css" />
-    <link rel="shortcut icon" type="image/x-icon" href="https://www.ucvts.tec.nj.us/cms/lib/NJ03001805/Centricity/Domain/4/favicon.ico"/>
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.png"/>
     <script type="text/javascript" src="script/index.js"></script>
 </head>
 
 <body>
-  <div>
+  <nav>
     <ul class="topnav">
-    <li class="topnavli"><a href="index.html">Home</a></li>
-    <li class="topnavli"><a class="active" class="item" href="calendar.html">Information</a></li>
-    <li class="topnavli"><a class="item" href="drill.html">Drill</a></li>
-    <li class="topnavli"><a class="item" href="brass.html">Brass</a></li>
-    <li class="topnavli"><a class="item" href="woodwinds.html">Woodwinds</a></li>
-    <li class="topnavli"><a class="item" href="drumline.html">Drumline</a></li>
-    <li class="topnavli"><a class="item" href="guard.html">Guard</a></li>
-    <li class="topnavli"><a class="item" href="scroll.html">Scroll</a></li>
-  </ul>
-</div>
-    <br><br>
-    <center><iframe id="calendar-widget" allowtransparency="true" style="border-width:0" width="788" height="700" frameborder="0" scrolling="no" title="Calendar" src="https://calendar.google.com/calendar/embed?height=600&wkst=1&amp;bgcolor=%23ffffff&src=npsdnj.org_9j33fgccfi11a9mq82351tq32k%40group.calendar.google.com&amp;color=%232F6309&amp;ctz=America%2FNew_York"></iframe></center><br>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="calendar.html" id="selected">Information</a></li>
+      <li><a href="drill.html">Drill</a></li>
+      <li><a href="brass.html">Brass</a></li>
+      <li><a href="woodwinds.html">Woodwinds</a></li>
+      <li><a href="drumline.html">Drumline</a></li>
+      <li><a href="guard.html">Guard</a></li>
+      <li><a href="scroll.html">Scroll</a></li>
+    </ul>
+  </nav>
+  <br><br>
+  <center><iframe id="calendar-widget" allowtransparency="true" style="border-width:0" width="788" height="700" frameborder="0" scrolling="no" title="Calendar" src="https://calendar.google.com/calendar/embed?height=600&wkst=1&amp;bgcolor=%23ffffff&src=npsdnj.org_9j33fgccfi11a9mq82351tq32k%40group.calendar.google.com&amp;color=%232F6309&amp;ctz=America%2FNew_York"></iframe></center><br>
+  <center><iframe id="remind-widget" title="Remind Messages" alt="Remind Messages"src="https://widgets.remind.com/widget?height=500&join=true&token=f9d9faa031ef013642500242ac110002"></iframe></center><br>
+  <script type="text/javascript" src="script/index.js"></script>
 </body>
-<script type="text/javascript" src="script/index.js"></script>
 </html>

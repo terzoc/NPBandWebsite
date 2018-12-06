@@ -1,3 +1,11 @@
+/*
+COLORS:
+
+Nav background: #1f571f
+Nav highlight:  #37b73c
+
+*/
+
 body {
     font-family: "Arial";
     color: black;
@@ -5,52 +13,61 @@ body {
     padding-top: 30px;
     margin: 0;
 }
-.head{
+
+
+/* NAVBAR */
+
+nav ul {
+  font-size: 16px;
+  color: whitesmoke;
+  background-color: #1f571f;
+  top: 0;
+  width: 100%;
+  left: 0%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  position: fixed;
+  text-align: center;
+  list-style-type: none;
+}
+
+nav li {
+  display: inline-grid;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+nav a {
+  float: left;
+  display: block;
+  color: #333333;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  color: whitesmoke;
+  background-color: #1f571f;
+  height: 17px;
+  border-bottom: 5px solid #1f571f;
+}
+
+#selected {border-bottom: 5px solid #37b73c;}
+
+a:active, #selected:active {transform:translateY(3px);}
+
+nav a:hover, #selected:hover {border-bottom: 5px solid #37b73c;}
+
+/* NOT NAVBAR */
+
+.head {
   font-size: 16px;
 }
+
 h1, h2, h3 {
     text-align: center;
 }
 
-/* Add a black background color to the top .topnavigation */
-ul.topnav {
-  overflow: hidden;
-  background-color:#1f571f;
-  display: inline-block;
-  margin-bottom: 0;
-  position: fixed;
-}
-
-ul.topnav a {
-  display: block;
-  color: whitesmoke;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 16px;
-  border-bottom: 4px solid transparent;
-  margin-bottom: 0;
-}
-
-.topnav a:hover {
-  border-bottom: 4px solid #37b73c;
-  -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
-       -moz-animation: fadein .4s; /* Firefox < 16 */
-        -ms-animation: fadein .4s; /* Internet Explorer */
-         -o-animation: fadein .4s; /* Opera < 12.1 */
-            animation: fadein .4s;
-}
-
-.topnav a.active {
-  border-bottom: 4px solid #37b73c;
-  font-weight: bold;
-}
-
-button:focus {
-    outline: 0;
-}
-
-select:focus {
+button:focus, select:focus {
     outline: 0;
 }
 
@@ -79,27 +96,7 @@ a {
   height: 375px;
 }
 
-.topnav {
-    text-align: center;
-    overflow: hidden;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    left: 0%;
-    list-style-type: none;
-    margin: auto;
-    padding: 0;
-}
-li.topnavli{
-  display: inline-block;
-  margin-bottom: 0;
-}
-
-.topnav a {
-    float: left;
-    display: block;
-}
-#drillselect{
+#drillselect {
   background-color: #1f571f;
   margin: 0;
 }
@@ -109,36 +106,29 @@ li.topnavli{
   color: whitesmoke;
 }
 
-@keyframes fadeIn {
-   0% {border-bottom: 4px solid transparent }
-   100% {border-bottom: 4px solid #37b73c}
+#message {
+  color: crimson;
+  font-size: x-large;
+  font-weight: bold;
 }
 
-@keyframes fadein {
-    from {border-bottom: 4px solid transparent}
-    to   {border-bottom: 4px solid #37b73c}
+a {
+  color: #0000EE;
+  font-weight: bold;
 }
 
-/* Firefox < 16 */
-@-moz-keyframes fadein {
-  from {border-bottom: 4px solid transparent}
-  to   {border-bottom: 4px solid #37b73c}
+#warmups {
+  color: darkslategray;
+  font-size: large;
 }
 
-/* Safari, Chrome and Opera > 12.1 */
-@-webkit-keyframes fadein {
-  from {border-bottom: 4px solid transparent}
-  to   {border-bottom: 4px solid #37b73c}
+#percstaff {
+  color: darkslateblue;
+  font-size: large;
 }
 
-/* Internet Explorer */
-@-ms-keyframes fadein {
-  from {border-bottom: 4px solid transparent}
-  to   {border-bottom: 4px solid #37b73c}
-}
-
-/* Opera < 12.1 */
-@-o-keyframes fadein {
-  from {border-bottom: 4px solid transparent}
-  to   {border-bottom: 4px solid #37b73c}
+#percawards {
+  font-size: medium;
+  color: #004500;
+  line-height: 1.5;
 }
