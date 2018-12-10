@@ -1,12 +1,10 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
     <title>Drill</title>
     <link href="styles/index.css" rel="stylesheet" type="text/css" />
+    <meta charset="UTF-8">
     <link rel="shortcut icon" type="image/x-icon" href="images/favicon.png"/>
-    <script type="text/javascript" src="script/index.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </head>
 
 <body>
@@ -23,14 +21,14 @@
     </ul>
   </nav>
     <br>
-    <center>
-      <iframe id="part1drill" class="drillvid" src="https://www.youtube.com/embed/ZTqo3iOXdmQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-      <iframe id="part2drill" class="drillvid" src="https://www.youtube.com/embed/j0Epiavh9uw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe><br>
-      <iframe id="part3drill" class="drillvid" src="https://www.youtube.com/embed/HWGhjazvBmA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-      <iframe id="part4drill" class="drillvid" src="https://www.youtube.com/embed/E7TcJD5QII8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-    </center><br>
+    <div style='text-align:center'>
+      <iframe id="part1drill" class="drillvid" src="https://www.youtube.com/embed/ZTqo3iOXdmQ" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+      <iframe id="part2drill" class="drillvid" src="https://www.youtube.com/embed/j0Epiavh9uw" allow="autoplay; encrypted-media" allowfullscreen></iframe><br>
+      <iframe id="part3drill" class="drillvid" src="https://www.youtube.com/embed/HWGhjazvBmA" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+      <iframe id="part4drill" class="drillvid" src="https://www.youtube.com/embed/E7TcJD5QII8" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    </div><br>
     <div id="drillselect">
-    <center>
+    <div style='text-align:center'>
     <div id="selector"><br>
       <h2>Drill Sheets</h2>
       <h4>Section</h4>
@@ -56,11 +54,13 @@
         <option value="Q">Quints</option>
         <option value="Z">Snare</option>
       </select>
-      <input type="text" name="" placeholder="Enter your drill number" id="number" value="">
+      <input type="text" placeholder="Enter your drill number" id="number" value="">
       <button type="button" onclick="test()" id="link" name="button">Search</button>
       <br><br><br><br><br>
-      <iframe id="my_iframe" style="display:none;">
-    </div></center>
+      <iframe id="my_iframe" style="display:none;"></iframe>
+    </div></div>
   </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="script/index.js"></script>
 </body>
 </html>
