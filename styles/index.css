@@ -132,3 +132,7 @@ a {
   color: #004500;
   line-height: 1.5;
 }
+
+#maincontent {
+  font-size: 22px;
+}
