@@ -148,3 +148,12 @@ a {
 #maincontent {
     font-size: 22px;
 }
+
+#bandwagon {
+    font-size: 20px;
+}
+
+#bandwagon ul {
+    text-align: left;
+    color: #993300;
+}
