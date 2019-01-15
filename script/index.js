@@ -9,7 +9,7 @@ function test(){
     var drillNum = instrument+number;
     drillNum = String(drillNum);
     console.log(drillNum);
-    download(drillNum);
+    download(instrument);
 
   }
 
@@ -18,18 +18,20 @@ function test(){
 
 function download(drillNum) {
     switch (drillNum) {
-      case "A1":
+      case "A":
         console.log("download A1");
         window.open('drill/A1.pdf', '_blank');
         break;
-      case "C1":
-          window.open('drill/C1.pdf', '_blank');
+      case "B":
+          console.log("download B1");
+          window.open('drill/B.pdf', '_blank');
           break;
-      case "T2":
-        console.log("downlad T2");
-        window.open('drill/T2.pdf', '_blank');
-        break;
-      default:
+      case "C":
+          window.open('drill/C.pdf', '_blank');
+          break;
+      case "F":
+          window.open('drill/F.pdf', '_blank');
+          break;
 
     }
     // $('#link').attr({
