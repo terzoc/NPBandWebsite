@@ -40,6 +40,32 @@ function download(drillNum) {
       case "N":
           window.open('drill/N.pdf', '_blank');
           break;
+      case "o":
+        console.log("download A1");
+        window.open('drill/o.pdf', '_blank');
+        break;
+      case "q":
+          console.log("download B1");
+          window.open('drill/q.pdf', '_blank');
+          break;
+      case "r":
+          window.open('drill/r.pdf', '_blank');
+          break;
+      case "s":
+          window.open('drill/s.pdf', '_blank');
+          break;
+      case "t":
+          window.open('drill/t.pdf', '_blank');
+          break;
+      case "u":
+          window.open('drill/u.pdf', '_blank');
+          break;
+      case "y":
+          window.open('drill/y.pdf', '_blank');
+          break;
+      case "z":
+          window.open('drill/z.pdf', '_blank');
+          break;
     }
     // $('#link').attr({
     //   target: '_blank',
