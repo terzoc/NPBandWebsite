@@ -1,19 +1,18 @@
 var number = 0;
 function test(){
   var instrument = document.getElementById("instrument").value;
-  number = document.getElementById("number").value;
-  number = parseInt(number);
-  if (!Number.isInteger(number)) {
-    alert("Please enter a Drill Number");
-  }else {
-    var drillNum = instrument+number;
-    drillNum = String(drillNum);
-    console.log(drillNum);
-    download(instrument);
+  download(instrument);
+  // number = document.getElementById("number").value;
+  // number = parseInt(number);
+  // if (!Number.isInteger(number)) {
+  //   alert("Please enter a Drill Number");
+  // }else {
+  //   var drillNum = instrument+number;
+  //   drillNum = String(drillNum);
+  //   console.log(drillNum);
+    
 
-  }
-
-
+  // }
 }
 
 function download(drillNum) {
@@ -32,7 +31,15 @@ function download(drillNum) {
       case "F":
           window.open('drill/F.pdf', '_blank');
           break;
-
+      case "G":
+          window.open('drill/G.pdf', '_blank');
+          break;
+      case "M":
+          window.open('drill/M.pdf', '_blank');
+          break;
+      case "N":
+          window.open('drill/N.pdf', '_blank');
+          break;
     }
     // $('#link').attr({
     //   target: '_blank',
